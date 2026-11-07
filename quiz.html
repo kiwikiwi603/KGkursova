@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Вікторина про свійських птахів: вгадайте птаха за силуетом і перевірте свої знання.">
+  <title>Свійські птахи Вінниччини – Вікторина</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" width="56" height="56" alt="Логотип сайту: кругленька курочка">
+        <span>Птахи Вінниччини<small>СВІЙСЬКЕ ПОДВІР'Я</small></span>
+      </a>
+      <nav class="nav" aria-label="Головне меню">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="birds.html">Птахи</a></li>
+          <li><a href="quiz.html" class="active" aria-current="page">Вікторина</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="quiz-head">
+      <h1>Вікторина</h1>
+      <p class="lead">Десять запитань про птахів подвір'я. Вгадайте птаха за силуетом і перевірте, що запам'ятали з сайту.</p>
+    </section>
+
+    <section aria-label="Запитання вікторини">
+      <div class="card quiz" id="quiz">
+        <div class="quiz-top"><span id="q-num">Запитання 1 з 10</span><span id="q-score">Бали: 0</span></div>
+        <div id="q-body">
+          <noscript><p>Для вікторини потрібно увімкнути JavaScript у браузері.</p></noscript>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>

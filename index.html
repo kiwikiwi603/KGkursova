@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Інформаційний сайт про свійських птахів Вінниччини: курку, гуску, качку, індика та голуба.">
+  <title>Свійські птахи Вінниччини – Головна</title>
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container topbar">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" width="56" height="56" alt="Логотип сайту: кругленька курочка">
+        <span>Птахи Вінниччини<small>СВІЙСЬКЕ ПОДВІР'Я</small></span>
+      </a>
+      <nav class="nav" aria-label="Головне меню">
+        <ul>
+          <li><a href="index.html" class="active" aria-current="page">Головна</a></li>
+          <li><a href="birds.html">Птахи</a></li>
+          <li><a href="quiz.html">Вікторина</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-sky" aria-hidden="true">
+        <svg class="hero-scene" viewBox="0 0 1440 520" preserveAspectRatio="xMidYMax slice">
+          <defs>
+            <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#f4c95d" stop-opacity="0.28"/>
+              <stop offset="65%" stop-color="#f4c95d" stop-opacity="0.06"/>
+              <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+          <!-- Світле сонячне небо на чистому білому полотні -->
+          <rect width="1440" height="520" fill="#ffffff"/>
+          <rect width="1440" height="390" fill="url(#skyGrad)"/>
+
+          <!-- Сонечко з теплим ореолом -->
+          <g transform="translate(1245, 88)">
+            <circle r="62" fill="#f4c95d" opacity="0.28"/>
+            <circle r="44" fill="#f4c95d" stroke="#3a2a20" stroke-width="3.5"/>
+          </g>
+
+          <!-- Пухнасті білі хмаринки -->
+          <g fill="#ffffff" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round">
+            <path transform="translate(85, 42)" d="M30 72 C10 72 6 48 26 44 C22 24 46 14 60 28 C66 6 102 4 110 26 C122 14 148 22 144 42 C166 42 168 72 146 72 Z"/>
+            <path transform="translate(1250, 148) scale(0.76)" d="M30 72 C10 72 6 48 26 44 C22 24 46 14 60 28 C66 6 102 4 110 26 C122 14 148 22 144 42 C166 42 168 72 146 72 Z"/>
+          </g>
+
+          <!-- Далекий пшеничний пагорб Поділля -->
+          <path d="M-40 395 Q 360 305 820 372 T 1480 345 L 1480 520 L -40 520 Z" fill="#ffffff"/>
+          <path d="M-40 395 Q 360 305 820 372 T 1480 345 L 1480 520 L -40 520 Z"
+                fill="#f4c95d" fill-opacity="0.45" stroke="#3a2a20" stroke-width="3.5"/>
+
+          <!-- Дерев'яний парканчик уздовж пагорбів Поділля -->
+          <g fill="#ffffff" stroke="#3a2a20" stroke-width="2.6" stroke-linejoin="round">
+            <path d="M -24.0 340.4 L 0.0 336.3 L 24.0 332.7 L 48.0 329.6 L 72.0 326.9 L 96.0 324.6 L 120.0 322.8 L 144.0 321.2 L 168.0 320.1 L 192.0 319.2 L 216.0 318.7 L 240.0 318.4 L 264.0 318.5 L 288.0 318.8 L 312.0 319.3 L 336.0 320.1 L 360.0 321.2 L 384.0 322.4 L 408.0 323.9 L 432.0 325.6 L 456.0 327.4 L 480.0 329.5 L 504.0 331.8 L 528.0 334.2 L 552.0 336.8 L 576.0 339.6 L 600.0 342.5 L 624.0 345.6 L 648.0 348.8 L 672.0 352.2 L 696.0 355.7 L 720.0 359.4 L 744.0 355.8 L 768.0 352.4 L 792.0 349.2 L 816.0 346.2 L 840.0 343.4 L 864.0 340.8 L 888.0 338.4 L 912.0 336.2 L 936.0 334.2 L 960.0 332.4 L 984.0 330.9 L 1008.0 329.6 L 1032.0 328.5 L 1056.0 327.6 L 1080.0 326.9 L 1104.0 326.5 L 1128.0 326.3 L 1152.0 326.4 L 1176.0 326.7 L 1200.0 327.3 L 1224.0 328.1 L 1248.0 329.1 L 1272.0 330.4 L 1296.0 332.0 L 1320.0 333.9 L 1344.0 336.0 L 1368.0 338.4 L 1392.0 341.1 L 1416.0 344.0 L 1440.0 347.3 L 1464.0 350.9 L 1464.0 358.1 L 1440.0 354.5 L 1416.0 351.2 L 1392.0 348.3 L 1368.0 345.6 L 1344.0 343.2 L 1320.0 341.1 L 1296.0 339.2 L 1272.0 337.6 L 1248.0 336.3 L 1224.0 335.3 L 1200.0 334.5 L 1176.0 333.9 L 1152.0 333.6 L 1128.0 333.5 L 1104.0 333.7 L 1080.0 334.1 L 1056.0 334.8 L 1032.0 335.7 L 1008.0 336.8 L 984.0 338.1 L 960.0 339.6 L 936.0 341.4 L 912.0 343.4 L 888.0 345.6 L 864.0 348.0 L 840.0 350.6 L 816.0 353.4 L 792.0 356.4 L 768.0 359.6 L 744.0 363.0 L 720.0 366.6 L 696.0 362.9 L 672.0 359.4 L 648.0 356.0 L 624.0 352.8 L 600.0 349.7 L 576.0 346.8 L 552.0 344.0 L 528.0 341.4 L 504.0 339.0 L 480.0 336.7 L 456.0 334.6 L 432.0 332.8 L 408.0 331.1 L 384.0 329.6 L 360.0 328.4 L 336.0 327.3 L 312.0 326.5 L 288.0 326.0 L 264.0 325.7 L 240.0 325.6 L 216.0 325.9 L 192.0 326.4 L 168.0 327.3 L 144.0 328.4 L 120.0 330.0 L 96.0 331.8 L 72.0 334.1 L 48.0 336.8 L 24.0 339.9 L 0.0 343.5 L -24.0 347.6 Z"/>
+            <path d="M -24.0 355.4 L 0.0 351.3 L 24.0 347.7 L 48.0 344.6 L 72.0 341.9 L 96.0 339.6 L 120.0 337.8 L 144.0 336.2 L 168.0 335.1 L 192.0 334.2 L 216.0 333.7 L 240.0 333.4 L 264.0 333.5 L 288.0 333.8 L 312.0 334.3 L 336.0 335.1 L 360.0 336.2 L 384.0 337.4 L 408.0 338.9 L 432.0 340.6 L 456.0 342.4 L 480.0 344.5 L 504.0 346.8 L 528.0 349.2 L 552.0 351.8 L 576.0 354.6 L 600.0 357.5 L 624.0 360.6 L 648.0 363.8 L 672.0 367.2 L 696.0 370.7 L 720.0 374.4 L 744.0 370.8 L 768.0 367.4 L 792.0 364.2 L 816.0 361.2 L 840.0 358.4 L 864.0 355.8 L 888.0 353.4 L 912.0 351.2 L 936.0 349.2 L 960.0 347.4 L 984.0 345.9 L 1008.0 344.6 L 1032.0 343.5 L 1056.0 342.6 L 1080.0 341.9 L 1104.0 341.5 L 1128.0 341.3 L 1152.0 341.4 L 1176.0 341.7 L 1200.0 342.3 L 1224.0 343.1 L 1248.0 344.1 L 1272.0 345.4 L 1296.0 347.0 L 1320.0 348.9 L 1344.0 351.0 L 1368.0 353.4 L 1392.0 356.1 L 1416.0 359.0 L 1440.0 362.3 L 1464.0 365.9 L 1464.0 373.1 L 1440.0 369.5 L 1416.0 366.2 L 1392.0 363.3 L 1368.0 360.6 L 1344.0 358.2 L 1320.0 356.1 L 1296.0 354.2 L 1272.0 352.6 L 1248.0 351.3 L 1224.0 350.3 L 1200.0 349.5 L 1176.0 348.9 L 1152.0 348.6 L 1128.0 348.5 L 1104.0 348.7 L 1080.0 349.1 L 1056.0 349.8 L 1032.0 350.7 L 1008.0 351.8 L 984.0 353.1 L 960.0 354.6 L 936.0 356.4 L 912.0 358.4 L 888.0 360.6 L 864.0 363.0 L 840.0 365.6 L 816.0 368.4 L 792.0 371.4 L 768.0 374.6 L 744.0 378.0 L 720.0 381.6 L 696.0 377.9 L 672.0 374.4 L 648.0 371.0 L 624.0 367.8 L 600.0 364.7 L 576.0 361.8 L 552.0 359.0 L 528.0 356.4 L 504.0 354.0 L 480.0 351.7 L 456.0 349.6 L 432.0 347.8 L 408.0 346.1 L 384.0 344.6 L 360.0 343.4 L 336.0 342.3 L 312.0 341.5 L 288.0 341.0 L 264.0 340.7 L 240.0 340.6 L 216.0 340.9 L 192.0 341.4 L 168.0 342.3 L 144.0 343.4 L 120.0 345.0 L 96.0 346.8 L 72.0 349.1 L 48.0 351.8 L 24.0 354.9 L 0.0 358.5 L -24.0 362.6 Z"/>
+            <path d="M3 334.3 L10 325.3 L17 334.3 L17 377.3 L3 377.3 Z"/>
+            <path d="M45 328.7 L52 319.7 L59 328.7 L59 371.7 L45 371.7 Z"/>
+            <path d="M87 324.4 L94 315.4 L101 324.4 L101 367.4 L87 367.4 Z"/>
+            <path d="M129 321.3 L136 312.3 L143 321.3 L143 364.3 L129 364.3 Z"/>
+            <path d="M171 319.3 L178 310.3 L185 319.3 L185 362.3 L171 362.3 Z"/>
+            <path d="M213 318.2 L220 309.2 L227 318.2 L227 361.2 L213 361.2 Z"/>
+            <path d="M255 318.0 L262 309.0 L269 318.0 L269 361.0 L255 361.0 Z"/>
+            <path d="M297 318.7 L304 309.7 L311 318.7 L311 361.7 L297 361.7 Z"/>
+            <path d="M339 320.1 L346 311.1 L353 320.1 L353 363.1 L339 363.1 Z"/>
+            <path d="M381 322.2 L388 313.2 L395 322.2 L395 365.2 L381 365.2 Z"/>
+            <path d="M423 325.0 L430 316.0 L437 325.0 L437 368.0 L423 368.0 Z"/>
+            <path d="M465 328.4 L472 319.4 L479 328.4 L479 371.4 L465 371.4 Z"/>
+            <path d="M507 332.4 L514 323.4 L521 332.4 L521 375.4 L507 375.4 Z"/>
+            <path d="M549 336.9 L556 327.9 L563 336.9 L563 379.9 L549 379.9 Z"/>
+            <path d="M591 341.9 L598 332.9 L605 341.9 L605 384.9 L591 384.9 Z"/>
+            <path d="M633 347.3 L640 338.3 L647 347.3 L647 390.3 L633 390.3 Z"/>
+            <path d="M675 353.3 L682 344.3 L689 353.3 L689 396.3 L675 396.3 Z"/>
+            <path d="M717 358.4 L724 349.4 L731 358.4 L731 401.4 L717 401.4 Z"/>
+            <path d="M759 352.3 L766 343.3 L773 352.3 L773 395.3 L759 395.3 Z"/>
+            <path d="M801 346.8 L808 337.8 L815 346.8 L815 389.8 L801 389.8 Z"/>
+            <path d="M843 341.9 L850 332.9 L857 341.9 L857 384.9 L843 384.9 Z"/>
+            <path d="M885 337.6 L892 328.6 L899 337.6 L899 380.6 L885 380.6 Z"/>
+            <path d="M927 334.0 L934 325.0 L941 334.0 L941 377.0 L927 377.0 Z"/>
+            <path d="M969 331.0 L976 322.0 L983 331.0 L983 374.0 L969 374.0 Z"/>
+            <path d="M1011 328.7 L1018 319.7 L1025 328.7 L1025 371.7 L1011 371.7 Z"/>
+            <path d="M1053 327.1 L1060 318.1 L1067 327.1 L1067 370.1 L1053 370.1 Z"/>
+            <path d="M1095 326.1 L1102 317.1 L1109 326.1 L1109 369.1 L1095 369.1 Z"/>
+            <path d="M1137 325.9 L1144 316.9 L1151 325.9 L1151 368.9 L1137 368.9 Z"/>
+            <path d="M1179 326.5 L1186 317.5 L1193 326.5 L1193 369.5 L1179 369.5 Z"/>
+            <path d="M1221 327.8 L1228 318.8 L1235 327.8 L1235 370.8 L1221 370.8 Z"/>
+            <path d="M1263 329.9 L1270 320.9 L1277 329.9 L1277 372.9 L1263 372.9 Z"/>
+            <path d="M1305 332.8 L1312 323.8 L1319 332.8 L1319 375.8 L1305 375.8 Z"/>
+            <path d="M1347 336.6 L1354 327.6 L1361 336.6 L1361 379.6 L1347 379.6 Z"/>
+            <path d="M1389 341.2 L1396 332.2 L1403 341.2 L1403 384.2 L1389 384.2 Z"/>
+            <path d="M1431 346.6 L1438 337.6 L1445 346.6 L1445 389.6 L1431 389.6 Z"/>
+          </g>
+
+          <!-- Передній солом'яно-жовтий пагорб подвір'я (#f4c95d) -->
+          <path d="M-40 372 Q 250 315 720 388 Q 1130 325 1480 382 L 1480 520 L -40 520 Z"
+                fill="#f4c95d" stroke="#3a2a20" stroke-width="3.5"/>
+
+          <!-- Пучки соломки та польові квіточки з теракотовими серединками -->
+          <g stroke="#3a2a20" stroke-width="3.2" stroke-linecap="round" fill="none">
+            <path d="M350 398 L358 382 M366 400 L374 385"/>
+            <path d="M650 412 L656 395 M666 414 L674 398"/>
+            <path d="M940 396 L948 378 M956 399 L965 382"/>
+            <path d="M1340 422 L1349 404 M1357 424 L1365 408"/>
+          </g>
+          <g>
+            <circle cx="480" cy="392" r="6.5" fill="#ffffff" stroke="#3a2a20" stroke-width="2.2"/>
+            <circle cx="480" cy="392" r="2.8" fill="#c8432d"/>
+            <circle cx="860" cy="396" r="6.5" fill="#ffffff" stroke="#3a2a20" stroke-width="2.2"/>
+            <circle cx="860" cy="396" r="2.8" fill="#c8432d"/>
+            <circle cx="1090" cy="384" r="6" fill="#ffffff" stroke="#3a2a20" stroke-width="2.2"/>
+            <circle cx="1090" cy="384" r="2.5" fill="#c8432d"/>
+          </g>
+        </svg>
+      </div>
+      <div class="hero-text">
+        <h1>Свійські птахи Вінниччини</h1>
+        <p class="lead">Курка, гуска, качка, індик, голуб, цесарка й перепілка – сім сусідів,
+          без яких важко уявити подільське подвір'я.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="birds.html">Познайомитися з птахами</a>
+          <a class="btn" href="quiz.html">Пройти вікторину</a>
+        </div>
+      </div>
+      <img class="hero-coop" src="images/coop.svg" width="228" height="228" alt="Мальований дерев'яний курник на пагорбі">
+      <svg class="flock" viewBox="0 0 940 195" width="785" height="163" role="img" aria-label="Анімація: перепілка, голуб, качка, цесарка, гуска, курка та індик ідуть один за одним"><g class="shadows"><ellipse cx="42.0" cy="186.5" rx="17.0" ry="3.9" fill="#3a2a20" opacity="0.22"/><ellipse cx="146.0" cy="186.5" rx="18.7" ry="4.1" fill="#3a2a20" opacity="0.22"/><ellipse cx="256.0" cy="186.5" rx="24.8" ry="4.2" fill="#3a2a20" opacity="0.22"/><ellipse cx="384.0" cy="186.5" rx="28.0" ry="4.3" fill="#3a2a20" opacity="0.22"/><ellipse cx="516.0" cy="186.5" rx="32.8" ry="4.5" fill="#3a2a20" opacity="0.22"/><ellipse cx="680.0" cy="186.5" rx="27.2" ry="4.3" fill="#3a2a20" opacity="0.22"/><ellipse cx="852.0" cy="186.5" rx="37.4" ry="4.6" fill="#3a2a20" opacity="0.22"/></g><g transform="translate(42.0 186.5) scale(0.5) translate(-104.0 -182.5)"><g class="bb" style="animation-duration:0.18s"><g transform="translate(100 154)"><g class="la" style="animation-duration:0.36s"><g transform="translate(-100 -154)"><path class="leg" d="M100 154 L100 182" fill="none" stroke="#e3b08a" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M93 183 L113 183 M101 182 L110 177" fill="none" stroke="#e3b08a" stroke-width="3.5" stroke-linecap="round"/></g></g></g><g transform="translate(114 154)"><g class="lb" style="animation-duration:0.36s"><g transform="translate(-114 -154)"><path class="leg" d="M114 154 L114 182" fill="none" stroke="#e3b08a" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M107 183 L127 183 M115 182 L124 177" fill="none" stroke="#e3b08a" stroke-width="3.5" stroke-linecap="round"/></g></g></g><path class="b" d="M48 132 C40 118 46 104 60 104 C74 86 104 80 124 88 C128 76 140 66 154 68 C168 70 172 86 166 96 C162 104 160 112 162 120 C164 144 140 160 108 160 C80 160 58 150 48 132 Z" fill="#b8875a" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M128 76 C136 66 152 64 162 72 C154 72 144 74 136 82 Z" fill="#7a5233" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="s" d="M148 92 C156 92 162 98 162 106 C162 118 154 124 146 120 C140 110 142 98 148 92 Z" fill="#e8c79a"/><path class="s" d="M58 138 C72 154 112 158 138 150 C124 160 92 162 74 156 C66 152 61 146 58 138 Z" fill="#9c6c42"/><path class="d" d="M70 112 l10 -3" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M92 100 l10 -3" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M114 98 l10 -3" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M64 128 l10 -3" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M138 110 l10 -3" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M84 146 l10 -3" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M108 150 l10 -3" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M72 118 C88 104 120 106 130 120 C130 134 108 140 90 136 C78 134 70 128 72 118 Z" fill="#9c6c42" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M84 122 l10 -2 M100 124 l10 -2 M92 131 l10 -2" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M166 77 C156 72 144 72 136 78" fill="none" stroke="#f0d9a8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M165 80 L176 84 L165 88 Z" fill="#5a4636" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><circle class="d" cx="155" cy="81" r="3.8" fill="#3a2a20"/><circle class="s" cx="156.5" cy="79.4" r="1.6" fill="#ffffff"/></g></g><g transform="translate(146.0 186.5) scale(0.61) translate(-100.0 -168.5)"><g class="bb" style="animation-duration:0.20s"><g transform="translate(100 138)"><g class="la" style="animation-duration:0.4s"><g transform="translate(-100 -138)"><path class="leg" d="M100 138 L100 168" fill="none" stroke="#e08a8a" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M93 169 L113 169 M101 168 L110 163" fill="none" stroke="#e08a8a" stroke-width="3.5" stroke-linecap="round"/></g></g></g><g transform="translate(114 138)"><g class="lb" style="animation-duration:0.4s"><g transform="translate(-114 -138)"><path class="leg" d="M114 138 L114 168" fill="none" stroke="#e08a8a" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M107 169 L127 169 M115 168 L124 163" fill="none" stroke="#e08a8a" stroke-width="3.5" stroke-linecap="round"/></g></g></g><path class="b" d="M64 122 L24 112 C20 108 22 100 28 98 L66 100 C80 86 104 82 120 88 C124 76 126 66 134 60 C144 52 158 56 160 68 C162 78 154 84 150 92 C156 112 150 134 124 142 C98 150 70 140 56 124 Z" fill="#9aa8b8" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M126 82 C132 76 146 78 152 88 C154 96 146 104 138 104 C130 102 124 92 126 82 Z" fill="#6fa58c" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="s" d="M131 96 C137 92 146 94 150 97 C146 103 138 105 131 96 Z" fill="#8f6fa8"/><path class="s" d="M64 128 C80 140 110 142 132 134 C118 146 92 148 76 140 C70 137 66 133 64 128 Z" fill="#808ea0"/><path class="d" d="M62 112 C78 98 116 98 128 114 C126 126 104 132 82 128 C70 126 62 120 62 112 Z" fill="#c2ccd8" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M82 109 C86 116 88 122 88 127" fill="none" stroke="#3a3a44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M96 107 C100 114 102 121 102 129" fill="none" stroke="#3a3a44" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M158 64 L173 68 L158 72 Z" fill="#4a4a52" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse class="d" cx="158" cy="64.5" rx="3.5" ry="2.2" fill="#f4f1ea"/><circle class="d" cx="150" cy="65" r="6" fill="#e88a3a"/><circle class="d" cx="150" cy="65" r="3.6" fill="#3a2a20"/><circle class="s" cx="151.5" cy="63.4" r="1.6" fill="#ffffff"/></g></g><g transform="translate(256.0 186.5) scale(0.73) translate(-104.0 -180.5)"><g class="bb" style="animation-duration:0.23s"><g transform="translate(98 146)"><g class="la" style="animation-duration:0.45s"><g transform="translate(-98 -146)"><path class="leg" d="M98 146 L98 180" fill="none" stroke="#f08a2c" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M94 181 L113 181 L101 175 Z" fill="#f08a2c" stroke="#f08a2c" stroke-width="3" stroke-linejoin="round"/></g></g></g><g transform="translate(114 146)"><g class="lb" style="animation-duration:0.45s"><g transform="translate(-114 -146)"><path class="leg" d="M114 146 L114 180" fill="none" stroke="#f08a2c" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M110 181 L129 181 L117 175 Z" fill="#f08a2c" stroke="#f08a2c" stroke-width="3" stroke-linejoin="round"/></g></g></g><path class="b" d="M44 112 C40 100 48 94 58 100 C76 92 104 94 118 100 C122 90 122 78 126 70 C130 54 146 46 158 52 C170 58 168 74 160 82 C154 90 150 98 154 110 C158 134 138 150 106 150 C74 150 52 136 44 112 Z" fill="#c7c2b5" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M126 70 C130 54 146 46 158 52 C170 58 168 74 160 82 C155 88 149 92 147 96 C137 96 127 92 124 84 C123 78 124 74 126 70 Z" fill="#3f8f6b" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M147 98 C151 104 155 108 155 114 C157 126 149 136 137 140 C139 124 137 108 129 100 C135 100 141 99 147 98 Z" fill="#9b5b3c" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M125 89 C133 95 143 97 151 95" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path class="s" d="M60 126 C74 142 104 146 126 140 C112 150 88 152 72 146 C66 142 62 135 60 126 Z" fill="#aaa498"/><ellipse class="s" cx="145" cy="60" rx="6" ry="3" fill="#6fb898" transform="rotate(-25 145 60)"/><path class="d" d="M161 62 C172 59 187 62 187 68 C187 73 176 75 161 72 Z" fill="#f2c14e" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M66 108 C80 96 114 98 126 112 C126 126 106 132 86 128 C74 126 64 118 66 108 Z" fill="#d9d4c8" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M80 116 C92 121 104 122 116 119" fill="none" stroke="#3a2a20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M52 101 C46 90 55 84 59 92" fill="none" stroke="#3a2a20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="d" cx="153" cy="63" r="4.5" fill="#3a2a20"/><circle class="s" cx="154.5" cy="61.4" r="1.6" fill="#ffffff"/></g></g><g transform="translate(384.0 186.5) scale(0.75) translate(-100.0 -180.5)"><g class="bb" style="animation-duration:0.22s"><g transform="translate(96 150)"><g class="la" style="animation-duration:0.44s"><g transform="translate(-96 -150)"><path class="leg" d="M96 150 L96 180" fill="none" stroke="#7d828c" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M89 181 L109 181 M97 180 L106 175" fill="none" stroke="#7d828c" stroke-width="3.5" stroke-linecap="round"/></g></g></g><g transform="translate(112 150)"><g class="lb" style="animation-duration:0.44s"><g transform="translate(-112 -150)"><path class="leg" d="M112 150 L112 180" fill="none" stroke="#7d828c" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M105 181 L125 181 M113 180 L122 175" fill="none" stroke="#7d828c" stroke-width="3.5" stroke-linecap="round"/></g></g></g><path class="b" d="M38 138 C30 112 52 80 92 76 C116 74 132 84 140 94 C144 84 146 72 150 64 C154 54 168 52 172 62 C176 72 168 80 162 88 C156 98 156 112 154 124 C150 148 126 160 96 160 C66 160 46 152 38 138 Z" fill="#5b6170" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="s" d="M46 142 C60 156 100 160 128 152 C114 162 80 164 62 156 C54 152 49 148 46 142 Z" fill="#474c59"/><circle class="d" cx="97" cy="92" r="2.4" fill="#ffffff"/><circle class="d" cx="65" cy="104" r="2.4" fill="#ffffff"/><circle class="d" cx="78" cy="104" r="2.4" fill="#ffffff"/><circle class="d" cx="91" cy="104" r="2.4" fill="#ffffff"/><circle class="d" cx="104" cy="104" r="2.4" fill="#ffffff"/><circle class="d" cx="117" cy="104" r="2.4" fill="#ffffff"/><circle class="d" cx="130" cy="104" r="2.4" fill="#ffffff"/><circle class="d" cx="58" cy="116" r="2.4" fill="#ffffff"/><circle class="d" cx="71" cy="116" r="2.4" fill="#ffffff"/><circle class="d" cx="84" cy="116" r="2.4" fill="#ffffff"/><circle class="d" cx="97" cy="116" r="2.4" fill="#ffffff"/><circle class="d" cx="110" cy="116" r="2.4" fill="#ffffff"/><circle class="d" cx="123" cy="116" r="2.4" fill="#ffffff"/><circle class="d" cx="136" cy="116" r="2.4" fill="#ffffff"/><circle class="d" cx="149" cy="116" r="2.4" fill="#ffffff"/><circle class="d" cx="52" cy="128" r="2.4" fill="#ffffff"/><circle class="d" cx="65" cy="128" r="2.4" fill="#ffffff"/><circle class="d" cx="78" cy="128" r="2.4" fill="#ffffff"/><circle class="d" cx="91" cy="128" r="2.4" fill="#ffffff"/><circle class="d" cx="104" cy="128" r="2.4" fill="#ffffff"/><circle class="d" cx="117" cy="128" r="2.4" fill="#ffffff"/><circle class="d" cx="130" cy="128" r="2.4" fill="#ffffff"/><circle class="d" cx="143" cy="128" r="2.4" fill="#ffffff"/><circle class="d" cx="71" cy="140" r="2.4" fill="#ffffff"/><circle class="d" cx="84" cy="140" r="2.4" fill="#ffffff"/><circle class="d" cx="97" cy="140" r="2.4" fill="#ffffff"/><circle class="d" cx="110" cy="140" r="2.4" fill="#ffffff"/><circle class="d" cx="123" cy="140" r="2.4" fill="#ffffff"/><circle class="d" cx="136" cy="140" r="2.4" fill="#ffffff"/><circle class="d" cx="91" cy="152" r="2.4" fill="#ffffff"/><path class="d" d="M150 64 C154 54 168 52 172 62 C176 72 168 80 162 88 C156 86 150 80 148 72 Z" fill="#dfe8ef" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M153 57 L158 40 L165 55 Z" fill="#c98a4a" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M171 63 L184 68 L170 73 Z" fill="#e8c36a" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M167 76 C174 78 174 89 167 89 C162 87 162 80 167 76 Z" fill="#d9473a" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><circle class="d" cx="161" cy="65" r="3.8" fill="#3a2a20"/><circle class="s" cx="162.5" cy="63.4" r="1.6" fill="#ffffff"/></g></g><g transform="translate(516.0 186.5) scale(0.92) translate(-104.0 -182.5)"><g class="bb" style="animation-duration:0.25s"><g transform="translate(98 150)"><g class="la" style="animation-duration:0.5s"><g transform="translate(-98 -150)"><path class="leg" d="M98 150 L98 182" fill="none" stroke="#f08a2c" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M94 183 L113 183 L101 177 Z" fill="#f08a2c" stroke="#f08a2c" stroke-width="3" stroke-linejoin="round"/></g></g></g><g transform="translate(116 150)"><g class="lb" style="animation-duration:0.5s"><g transform="translate(-116 -150)"><path class="leg" d="M116 150 L116 182" fill="none" stroke="#f08a2c" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M112 183 L131 183 L119 177 Z" fill="#f08a2c" stroke="#f08a2c" stroke-width="3" stroke-linejoin="round"/></g></g></g><path class="b" d="M40 118 C28 110 32 96 46 100 C60 92 90 92 116 98 C124 96 128 88 130 76 C132 60 130 46 140 36 C150 26 166 30 166 44 C166 54 158 58 152 64 C146 74 146 90 150 106 C156 130 140 152 108 154 C76 156 50 144 40 118 Z" fill="#fbfaf6" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="s" d="M52 128 C66 148 104 152 132 144 C118 154 92 156 72 150 C62 146 55 138 52 128 Z" fill="#e3dfd4"/><path class="s" d="M137 60 C134 70 134 82 136 92 C132 84 131 70 137 60 Z" fill="#e3dfd4"/><path class="d" d="M163 37 L187 45 C188 50 181 53 163 52 Z" fill="#f08a2c" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M62 110 C78 96 120 100 130 116 C132 130 112 138 90 134 C74 132 60 122 62 110 Z" fill="#e9e6dd" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M80 118 C94 124 108 125 120 121" fill="none" stroke="#3a2a20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M86 127 C96 130 106 131 114 129" fill="none" stroke="#3a2a20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="s" cx="158" cy="50" r="4.5" fill="#f6b9ad"/><circle class="d" cx="153" cy="41" r="4.5" fill="#3a2a20"/><circle class="s" cx="154.5" cy="39.4" r="1.6" fill="#ffffff"/></g></g><g transform="translate(680.0 186.5) scale(0.8) translate(-108.0 -184.5)"><g class="bb" style="animation-duration:0.22s"><g transform="translate(98 150)"><g class="la" style="animation-duration:0.44s"><g transform="translate(-98 -150)"><path class="leg" d="M98 150 L98 184" fill="none" stroke="#e8952f" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M91 185 L111 185 M99 184 L108 179" fill="none" stroke="#e8952f" stroke-width="3.5" stroke-linecap="round"/></g></g></g><g transform="translate(116 150)"><g class="lb" style="animation-duration:0.44s"><g transform="translate(-116 -150)"><path class="leg" d="M116 150 L116 184" fill="none" stroke="#e8952f" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M109 185 L129 185 M117 184 L126 179" fill="none" stroke="#e8952f" stroke-width="3.5" stroke-linecap="round"/></g></g></g><path class="b" d="M72 114 C50 102 36 78 40 50 C54 66 66 82 84 98 Z" fill="#8c4a2a" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="b" d="M74 122 C46 116 26 96 22 72 C40 84 58 98 82 106 Z" fill="#a85a32" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="b" d="M64 120 C60 96 72 84 92 86 C108 88 116 84 122 74 C118 56 128 40 146 40 C162 40 172 52 170 68 C168 82 160 92 162 104 C168 132 150 156 116 158 C84 160 66 146 64 120 Z" fill="#e39a57" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="s" d="M74 132 C86 150 112 154 136 148 C122 158 96 160 82 151 C77 146 74 139 74 132 Z" fill="#cd8247"/><ellipse class="s" cx="140" cy="50" rx="7" ry="3.5" fill="#f2bd85" transform="rotate(-20 140 50)"/><path class="d" d="M134 44 C130 32 142 26 145 37 C145 25 158 25 155 37 C160 29 171 34 163 46 Z" fill="#e2553e" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M168 57 L185 64 L168 71 Z" fill="#f2b33d" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M164 73 C171 75 171 89 162 89 C156 87 157 77 164 73 Z" fill="#e2553e" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M86 112 C96 98 128 100 136 118 C140 134 120 146 100 140 C90 136 82 124 86 112 Z" fill="#c9743f" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M98 124 C108 129 118 129 127 124" fill="none" stroke="#3a2a20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M101 133 C109 137 117 137 123 134" fill="none" stroke="#3a2a20" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="s" cx="158" cy="74" r="5" fill="#f29b8a"/><circle class="d" cx="155" cy="58" r="4.5" fill="#3a2a20"/><circle class="s" cx="156.5" cy="56.4" r="1.6" fill="#ffffff"/></g></g><g transform="translate(852.0 186.5) scale(1.0) translate(-104.0 -186.5)"><g class="bb" style="animation-duration:0.27s"><g transform="translate(98 156)"><g class="la" style="animation-duration:0.54s"><g transform="translate(-98 -156)"><path class="leg" d="M98 156 L98 186" fill="none" stroke="#d98f7a" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M91 187 L111 187 M99 186 L108 181" fill="none" stroke="#d98f7a" stroke-width="3.5" stroke-linecap="round"/></g></g></g><g transform="translate(114 156)"><g class="lb" style="animation-duration:0.54s"><g transform="translate(-114 -156)"><path class="leg" d="M114 156 L114 186" fill="none" stroke="#d98f7a" stroke-width="5" stroke-linecap="round"/><path class="leg" d="M107 187 L127 187 M115 186 L124 181" fill="none" stroke="#d98f7a" stroke-width="3.5" stroke-linecap="round"/></g></g></g><path class="b" d="M84 120 L8.0 122.7 Q1.0 110.2 10.7 99.8 Q7.7 85.8 20.2 78.8 Q21.5 64.5 35.4 61.5 Q40.9 48.3 55.2 49.7 Q64.4 38.7 77.6 44.3 Q89.6 36.6 100.5 45.8 Q114.3 42.1 122.0 54.2 Z" fill="#8e5c3b" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M18.0 117.7 L18.6 111.2 L19.8 104.7 L21.6 98.4 L24.1 92.3 L27.1 86.5 L30.7 81.0 L34.9 75.9 L39.5 71.3 L44.6 67.1 L50.0 63.4 L55.8 60.3 L61.9 57.8 L68.1 55.9 L74.6 54.7 L81.1 54.1 L87.7 54.1 L94.2 54.8 L100.6 56.1 L106.9 58.1 L112.9 60.7" fill="none" stroke="#f3e6cc" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M32.1 116.4 L32.7 111.4 L33.8 106.5 L35.3 101.8 L37.3 97.2 L39.7 92.8 L42.5 88.7 L45.7 84.9 L49.2 81.4 L53.1 78.2 L57.2 75.4 L61.6 73.1 L66.2 71.1 L71.0 69.7 L75.9 68.6 L80.8 68.1 L85.8 68.0 L90.8 68.4 L95.7 69.3 L100.5 70.7 L105.2 72.5" fill="none" stroke="#c9a06a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M46.2 116.0 L46.7 112.6 L47.6 109.1 L48.7 105.8 L50.2 102.6 L52.0 99.6 L54.0 96.7 L56.3 94.0 L58.8 91.6 L61.5 89.4 L64.4 87.4 L67.5 85.8 L70.8 84.4 L74.1 83.3 L77.5 82.6 L81.0 82.1 L84.5 82.0 L88.0 82.2 L91.5 82.7 L94.9 83.6 L98.2 84.8" fill="none" stroke="#6e4529" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path class="b" d="M56 140 C44 112 62 86 96 86 C112 86 118 80 120 70 C120 56 118 44 126 36 C134 28 148 30 150 42 C152 52 144 58 140 66 C136 76 142 90 146 104 C154 132 136 160 104 162 C80 164 62 156 56 140 Z" fill="#7a4e33" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M126 36 C134 28 148 30 150 42 C152 52 144 58 140 66 C135 70 129 70 123 66 C120 56 120 44 126 36 Z" fill="#a9cfe0" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="s" d="M66 146 C80 158 110 160 132 150 C120 162 92 166 74 158 C70 155 67 151 66 146 Z" fill="#5e3a26"/><path class="d" d="M150 42 L162 46 L150 50 Z" fill="#e8c36a" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M148 37 C157 40 159 51 157 61 C155 66 150 63 150 57 C150 51 150 44 148 37 Z" fill="#d9473a" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M135 62 C144 62 146 77 140 85 C134 89 127 80 130 71 Z" fill="#d9473a" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M80 112 C94 98 126 102 134 120 C136 136 114 146 96 140 C84 136 76 124 80 112 Z" fill="#5e3a26" stroke="#3a2a20" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path class="d" d="M92 122 C104 128 116 128 126 123" fill="none" stroke="#c9a06a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><path class="d" d="M96 131 C106 135 114 135 121 132" fill="none" stroke="#c9a06a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle class="d" cx="141" cy="41" r="4" fill="#3a2a20"/><circle class="s" cx="142.5" cy="39.4" r="1.6" fill="#ffffff"/></g></g></svg>
+    </section>
+
+    <div class="container">
+    <section aria-labelledby="who">
+      <h2 id="who" class="center">Хто живе на подвір'ї</h2>
+      <p class="intro">Вінниччина – аграрний край Поділля. У селах зранку чути півнів, а на луках біля ставків
+        пасуться гуси й качки. Домашня птиця дає яйця, м'ясо, пух і пір'я, а господарям – і клопіт, і радість.</p>
+      <div class="tiles">
+        <a class="card tile" href="hen.html">
+          <img src="images/hen.svg" width="180" height="180" alt="Руда курка" loading="lazy">
+          <h3>Курка</h3><p>Найпоширеніша птиця в господарстві</p>
+        </a>
+        <a class="card tile" href="goose.html">
+          <img src="images/goose.svg" width="180" height="180" alt="Біла гуска" loading="lazy">
+          <h3>Гуска</h3><p>Пильний сторож із гучним голосом</p>
+        </a>
+        <a class="card tile" href="duck.html">
+          <img src="images/duck.svg" width="180" height="180" alt="Качка із зеленою головою" loading="lazy">
+          <h3>Качка</h3><p>Найбільша любителька води</p>
+        </a>
+        <a class="card tile" href="turkey.html">
+          <img src="images/turkey.svg" width="180" height="180" alt="Індик із розпущеним хвостом" loading="lazy">
+          <h3>Індик</h3><p>Найбільший і найповажніший</p>
+        </a>
+        <a class="card tile" href="pigeon.html">
+          <img src="images/pigeon.svg" width="180" height="180" alt="Сизий голуб" loading="lazy">
+          <h3>Голуб</h3><p>Завжди знаходить дорогу додому</p>
+        </a>
+        <a class="card tile" href="guinea.html">
+          <img src="images/guinea.svg" width="180" height="180" alt="Сіра цесарка з білими цятками" loading="lazy">
+          <h3>Цесарка</h3><p>Гучна сторожиха в перлах</p>
+        </a>
+        <a class="card tile" href="quail.html">
+          <img src="images/quail.svg" width="180" height="180" alt="Коричнева пістрява перепілка" loading="lazy">
+          <h3>Перепілка</h3><p>Найменша на подвір'ї</p>
+        </a>
+      </div>
+    </section>
+
+    <section aria-labelledby="facts">
+      <h2 id="facts" class="center">Чи знаєте ви?</h2>
+      <div class="card fact">
+        <img src="images/egg.svg" width="160" height="160" alt="Мальоване куряче яйце" loading="lazy">
+        <ul class="fact-list">
+          <li>Курка не має зубів: зерно перетирають дрібні камінці у її м'язовому шлунку.</li>
+          <li>Гусенята ходять слідом за першою істотою, яку побачать після вилуплення.</li>
+          <li>Пір'я качок змащене жиром, тому вода скочується з нього, не намочуючи.</li>
+          <li>Голова індика змінює колір залежно від настрою.</li>
+          <li>Голуби знаходять дорогу додому за сотні кілометрів.</li>
+        </ul>
+      </div>
+    </section>
+    </div>
+  </main>
+  <script src="js/main.js"></script>
+</body>
+</html>
